@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagina 3"
+        android:textSize="35dp"
+        android:textColor="#ff0000"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:onClick="pagina_1"
+        android:text="Volver a pagina 1"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:onClick="pagina_2"
+        android:text="Volver a pagina 2"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
